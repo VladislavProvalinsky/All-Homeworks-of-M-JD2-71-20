@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.academy.moduleWar</groupId>
+  <artifactId>moduleWar</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200703102014</lastUpdated>
+  </versioning>
+</metadata>
