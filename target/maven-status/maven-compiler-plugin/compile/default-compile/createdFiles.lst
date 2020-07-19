@@ -1,1 +1,9 @@
 by\academy\it\Main.class
+by\academy\it\Expense.class
+by\academy\it\mysql\MyDao.class
+by\academy\it\Expense$ExpenseBuilder.class
+by\academy\it\MyDaoFactory.class
+by\academy\it\Receiver$ReceiverBuilder.class
+by\academy\it\mysql\MySQLDataBase.class
+by\academy\it\Dao.class
+by\academy\it\Receiver.class

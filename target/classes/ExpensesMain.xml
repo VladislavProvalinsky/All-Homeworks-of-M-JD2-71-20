@@ -1,0 +1,6 @@
+<dataset>
+    <expenses num="1" paydate="2011-05-10" receiver="1" value="20000"/>
+    <expenses num="2" paydate="2011-05-10" receiver="2" value="94200"/>
+    <expenses num="3" paydate="2011-05-11" receiver="3" value="10000"/>
+    <expenses num="4" paydate="2011-05-11" receiver="2" value="12950"/>
+</dataset>

@@ -1,0 +1,5 @@
+<dataset>
+    <receivers name="Интернет-провайдер 'Соло'"/>
+    <receivers name="Гипермаркет 'Корона'"/>
+    <receivers name="МТС"/>
+</dataset>

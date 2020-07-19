@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="0" name="by.academy.it.mysql.MyDaoTest" time="12.397" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="D:\Vladislav\java\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Vladislav\work\M-JD2-71-20\homework_2"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Vladislav\work\M-JD2-71-20\homework_2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vlad\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="D:\Vladislav\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\Vladislav\java\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\Vladislav\java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Vladislav\java\apache-maven-3.6.3\bin;D:\Vladislav\java\jdk-11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Git\cmd;."/>
+    <property name="maven.conf" value="D:\Vladislav\java\apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="idea.version2019.3.1" value="true"/>
+    <property name="user.home" value="C:\Users\Vlad"/>
+    <property name="user.timezone" value="GMT+03:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Влад"/>
+    <property name="java.class.path" value="D:\Vladislav\java\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\Vladislav\java\apache-maven-3.6.3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.1 clean install"/>
+    <property name="java.home" value="D:\Vladislav\java\jdk-11"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Vladislav\java\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenExpenseLessOrEqualsZero" time="1.62"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetExpenseWhenNumEqualsZero" time="1.338"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddReceiverWhenReceiverNumLessOrEqualsZero" time="0.37"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddReceiverWhenReceiverNameUpTo30" time="0.445"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddReceiverWhenReceiverNumIsNull" time="0.362"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddReceiverWhenReceiverIsNull" time="0.389"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenExpenseNumIsNull" time="0.409"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetExpenses" time="0.393"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetExpenseWhenNumLessThanZero" time="0.701"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddReceiverWhenReceiverIsTheSame" time="0.603"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenExpenseIsNull" time="0.516"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetReceiverWhenNumEqualsZero" time="0.853"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetReceiverWhenNumLessThanZero" time="0.706"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenExpenseIsTheSame" time="0.564"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetReceiversFromEmptyTable" time="0.351"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetExpenseWhenExpenseDoesNotExist" time="0.677"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetReceiverWhenNoThatReceiver" time="0.687"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenValueLessZero" time="0.367"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testAddExpenseWhenDateNonFormat" time="0.352"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetReceiverInEmptyTable" time="0.377"/>
+  <testcase classname="by.academy.it.mysql.MyDaoTest" name="testGetExpenseInEmptyTable" time="0.317"/>
+</testsuite>

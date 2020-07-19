@@ -1,0 +1,6 @@
+<dataset>
+    <receivers num="2" name="ОАО Корона"/>
+    <receivers num="3" name="ООО Солнышко"/>
+    <receivers num="4" name="ОДО Чупа-чупс"/>
+    <receivers num="5" name="ОАО Кока-кола"/>
+</dataset>
